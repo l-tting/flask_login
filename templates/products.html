@@ -6,13 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="post" id="form">
+    <form action="/add_p" method="post">
         {{ form.hidden_tag() }}
-        {{ form.username }}
-        {{ form.password }}
+        {{ form.name }}
+        {{ form.buying }}
+        {{ form.selling }}
+        {{ form.stock }}
         {{ form.submit }}
     </form>
 
-   
+
 </body>
 </html>
